@@ -1,4 +1,4 @@
-package lesson1;
+package by.academy.lesson1;
 
 public class HelloWorld {
 
