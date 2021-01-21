@@ -8,7 +8,7 @@ public class Task1 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Введите сумму покупки");
 		int buy = scan.nextInt();
-		System.out.println("������� �������");
+		System.out.println("Введите возраст");
 		int age = scan.nextInt();
 
 		if (buy < 100) {
@@ -30,7 +30,7 @@ public class Task1 {
 			buy -= buy * 20 / 100;
 		}
 		scan.close();
-		System.out.println("��������� ���� = " + buy);
+		System.out.println("ФИНАЛЬНАЯ СУММА = " + buy);
 	}
 
 }

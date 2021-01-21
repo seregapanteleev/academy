@@ -6,9 +6,9 @@ public class Task2 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Введите тип данных");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚РёРї РґР°РЅРЅС‹С…");
 		String in = scan.next();
-		System.out.println("Введите переменную");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅСѓСЋ");
 
 		switch (in) {
 		case "int":
