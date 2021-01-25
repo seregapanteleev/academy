@@ -13,6 +13,7 @@ public class Task3 {
 			int product = a * i;
 			System.out.println(a + " * " + i + " = " + product);
 		}
+		scan.close();
 	}
 
 }
