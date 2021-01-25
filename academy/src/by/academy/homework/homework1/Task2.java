@@ -34,7 +34,7 @@ public class Task2 {
 		default:
 			System.out.println("Unsupported type");
 		}
-
+		scan.close();
 	}
 
 }
