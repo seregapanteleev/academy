@@ -21,7 +21,7 @@ public class Task1 {
 		}
 		return true;
 	}
-
+	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Введите строку");
@@ -31,5 +31,4 @@ public class Task1 {
 		System.out.println(permutation(str1, str2)); 
 		scan.close();
 	}
-
 }
