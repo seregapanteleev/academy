@@ -8,10 +8,8 @@ public class Solution {
 
 	static int pairs(int k, int[] arr) {
 		int pairsCount = 0;
-		int a = 0;
 		for (int i = 0; i < arr.length; i++) {
-			a++;
-			for (int j = a; j < arr.length; j++) {
+			for (int j = i; j < arr.length; j++) {
 				if (Math.abs(arr[i] - arr[j]) == k) {
 					pairsCount++;
 				}
