@@ -1,6 +1,6 @@
 package by.academy.deal;
 
-public abstract class Product {
+public abstract class Product  {
 
 	private String name;
 	private Double prise;
@@ -56,14 +56,6 @@ public abstract class Product {
 	public final double calcFinalPrise() {
 		return prise * quantity * discount();
 	}
-//	 @Override
-//	    public String toString() {
-//	        StringBuilder stringBuilder = new StringBuilder();
-//	        stringBuilder.append("Наименование товара - ");
-//	        stringBuilder.append(getName() + "\n");
-//	        stringBuilder.append("Цена - ").append(getPrise() + "\n");
-//	        stringBuilder.append("Количество - ").append(getQuantity() + "\n");
-//	        stringBuilder.append("Производитель - ").append(getManufacture());
-//	        return stringBuilder.toString();
-//	 }
+	public abstract String toString();
+	 
 }

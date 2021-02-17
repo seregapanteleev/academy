@@ -19,3 +19,4 @@ public class EmailValidator implements Validator {
 	}
 
 }
+
