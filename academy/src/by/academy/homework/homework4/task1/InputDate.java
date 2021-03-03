@@ -3,9 +3,9 @@ package by.academy.homework.homework4.task1;
 import java.util.Scanner;
 
 public class InputDate {
-	String strDate;
-	Scanner scan = new Scanner(System.in);
-	DateValidator vDate = new DateValidator();
+	private String strDate;
+	private final Scanner scan = new Scanner(System.in);
+	private final DateValidator vDate = new DateValidator();
 
 	public String input() {
 		do {
@@ -17,6 +17,8 @@ public class InputDate {
 				System.out.println("OK");
 			}
 		} while (!vDate.isValid(strDate));
+		scan.close();
 		return strDate;
+		
 	}
 }
